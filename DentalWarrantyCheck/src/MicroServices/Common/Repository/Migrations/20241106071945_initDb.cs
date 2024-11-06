@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Repository.Migrations
 {
-    public partial class initDB : Migration
+    public partial class initDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -16,13 +16,11 @@ namespace Repository.Migrations
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     NumberCard = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DateOfBirth = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Teeth = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ActivationDate = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DeadlineDate = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Doctor = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     NameDental = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Teeth = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Labo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Type = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Source = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -73,7 +71,7 @@ namespace Repository.Migrations
             migrationBuilder.InsertData(
                 table: "UserEntity",
                 columns: new[] { "Id", "Address", "CreateDate", "CreatedBy", "CreatedByLookupName", "Delete", "Email", "LastLoginDate", "ModifiedBy", "ModifiedByLookupName", "Name", "Password", "Phone", "Role", "RoleLookupName", "Sex", "State", "UpdateDate" },
-                values: new object[] { new Guid("8669ff31-4c04-4bd7-bcb2-e4b2d4608cb3"), "143 Vũ Tông Phan, phường Khương Trung, quận Thanh Xuân, thành phố Hà Nội, Hanoi, Vietnam", new DateTimeOffset(new DateTime(2024, 10, 30, 13, 43, 59, 831, DateTimeKind.Unspecified).AddTicks(7015), new TimeSpan(0, 7, 0, 0, 0)), new Guid("eeb75e9b-100e-4d78-b8b1-a924dc7eb447"), null, false, "laviedental@admin.com", null, new Guid("eeb75e9b-100e-4d78-b8b1-a924dc7eb447"), null, "Admin", "BC89C73924089A668CE24F60232CA28C", "0944 66 6363", 0, null, 0, null, new DateTimeOffset(new DateTime(2024, 10, 30, 13, 43, 59, 831, DateTimeKind.Unspecified).AddTicks(7040), new TimeSpan(0, 7, 0, 0, 0)) });
+                values: new object[] { new Guid("8669ff31-4c04-4bd7-bcb2-e4b2d4608cb3"), "143 Vũ Tông Phan, phường Khương Trung, quận Thanh Xuân, thành phố Hà Nội, Hanoi, Vietnam", new DateTimeOffset(new DateTime(2024, 11, 6, 14, 19, 45, 439, DateTimeKind.Unspecified).AddTicks(4723), new TimeSpan(0, 7, 0, 0, 0)), new Guid("eeb75e9b-100e-4d78-b8b1-a924dc7eb447"), null, false, "laviedental@admin.com", null, new Guid("eeb75e9b-100e-4d78-b8b1-a924dc7eb447"), null, "Admin", "BC89C73924089A668CE24F60232CA28C", "0944 66 6363", 0, null, 0, null, new DateTimeOffset(new DateTime(2024, 11, 6, 14, 19, 45, 439, DateTimeKind.Unspecified).AddTicks(4747), new TimeSpan(0, 7, 0, 0, 0)) });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

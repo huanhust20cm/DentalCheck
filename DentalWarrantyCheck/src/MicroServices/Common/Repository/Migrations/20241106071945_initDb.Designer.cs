@@ -12,8 +12,8 @@ using Repository;
 namespace Repository.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
-    [Migration("20241030064400_initDB")]
-    partial class initDB
+    [Migration("20241106071945_initDb")]
+    partial class initDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -40,9 +40,6 @@ namespace Repository.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("CreatedByLookupName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("DateOfBirth")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DeadlineDate")
@@ -74,9 +71,6 @@ namespace Repository.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NumberOfTeeth")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Source")
@@ -181,7 +175,7 @@ namespace Repository.Migrations
                         {
                             Id = new Guid("8669ff31-4c04-4bd7-bcb2-e4b2d4608cb3"),
                             Address = "143 Vũ Tông Phan, phường Khương Trung, quận Thanh Xuân, thành phố Hà Nội, Hanoi, Vietnam",
-                            CreateDate = new DateTimeOffset(new DateTime(2024, 10, 30, 13, 43, 59, 831, DateTimeKind.Unspecified).AddTicks(7015), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreateDate = new DateTimeOffset(new DateTime(2024, 11, 6, 14, 19, 45, 439, DateTimeKind.Unspecified).AddTicks(4723), new TimeSpan(0, 7, 0, 0, 0)),
                             CreatedBy = new Guid("eeb75e9b-100e-4d78-b8b1-a924dc7eb447"),
                             Delete = false,
                             Email = "laviedental@admin.com",
@@ -191,7 +185,7 @@ namespace Repository.Migrations
                             Phone = "0944 66 6363",
                             Role = 0,
                             Sex = 0,
-                            UpdateDate = new DateTimeOffset(new DateTime(2024, 10, 30, 13, 43, 59, 831, DateTimeKind.Unspecified).AddTicks(7040), new TimeSpan(0, 7, 0, 0, 0))
+                            UpdateDate = new DateTimeOffset(new DateTime(2024, 11, 6, 14, 19, 45, 439, DateTimeKind.Unspecified).AddTicks(4747), new TimeSpan(0, 7, 0, 0, 0))
                         });
                 });
 #pragma warning restore 612, 618
