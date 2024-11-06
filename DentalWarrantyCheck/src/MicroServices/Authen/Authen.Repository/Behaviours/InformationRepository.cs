@@ -73,7 +73,7 @@ namespace Authen.Repository.Behaviours
         {
             using (var method = base.context)
             {
-                var Information = await method.Informations.AsNoTracking().Where(i => !i.Delete && (entity.NumberCard == i.NumberCard || entity.ActivationDate == i.ActivationDate)).FirstOrDefaultAsync();
+                var Information = await method.Informations.AsNoTracking().Where(i => !i.Delete && (entity.NumberCard == i.NumberCard || entity.ActivationDate == i.DateOfBirth)).FirstOrDefaultAsync();
                 return Information;
             }
         }
