@@ -21,7 +21,7 @@ interface IMenuClickEvent {
 const navItems: CustomMenuItem[] = [
   {
     label: 'Mã khách hàng',
-    path: '/admin',
+    path: '/',
     key: 'admin'
   }
 ];
@@ -66,7 +66,9 @@ const LeftNav: React.FC<ILeftNavProps> = (props) => {
     if (info.key) {
       setSelectedKey([info.key]);
       const path = findItemNodeByKeyOrPath('key', info.key)?.path;
-      path && navigate(path);
+      if (path) {
+        navigate(path);
+      }
       props?.onMenuClick?.(info.key);
     }
   };

@@ -28,7 +28,7 @@ export default function Home() {
   };
 
   return (
-    <Spin spinning={isSpin} tip="Loading..." size="large">
+    <Spin spinning={isSpin} size="large">
       <Layout
         headerStyle={2}
         footerStyle={1}
@@ -71,41 +71,41 @@ export default function Home() {
           </div>
         </section>
 
-        {/* {dataSearch && ( */}
-        <section className="process-section bg-color-2">
-          <div className="align-2 flexbox_1 p_20 mwp_100">
-            <div className="align-2 flexbox_1 p_20 wp_50 wpmb_100">
-              <Form className="wp_100" size="large" form={form2}>
-                <Form.Item name="nameProduct" label="Sản phẩm">
-                  <Input disabled></Input>
-                </Form.Item>
-                <Form.Item name="name" label="Họ và tên">
-                  <Input disabled></Input>
-                </Form.Item>
-                <Form.Item name="numberCard" label="Mã số thẻ">
-                  <Input disabled></Input>
-                </Form.Item>
-                <Form.Item name="dental" label="Nha khoa">
-                  <Input disabled></Input>
-                </Form.Item>
-                <Form.Item name="doctor" label="Bác sĩ">
-                  <Input disabled></Input>
-                </Form.Item>
-                <Form.Item name="numberTeeth" label="Số lượng răng">
-                  <Input disabled></Input>
-                </Form.Item>
-                <Form.Item name="expired" label="Ngày hết hạn">
-                  <Input disabled></Input>
-                </Form.Item>
-              </Form>
-              <p>
-                Trân trọng cảm ơn Quý khách đã tin dùng và lựa chọn sản phẩm
-                Răng sứ cao cấp Orisdent.
-              </p>
+        {dataSearch && (
+          <section className="process-section bg-color-2">
+            <div className="align-2 flexbox_1 p_20 mwp_100">
+              <div className="align-2 flexbox_1 p_20 wp_50 wpmb_100">
+                <Form className="wp_100" size="large" form={form2}>
+                  <Form.Item name="type" label="Sản phẩm">
+                    <Input disabled></Input>
+                  </Form.Item>
+                  <Form.Item name="name" label="Họ và tên">
+                    <Input disabled></Input>
+                  </Form.Item>
+                  <Form.Item name="numberCard" label="Mã số thẻ">
+                    <Input disabled></Input>
+                  </Form.Item>
+                  <Form.Item name="nameDental" label="Nha khoa">
+                    <Input disabled></Input>
+                  </Form.Item>
+                  <Form.Item name="doctor" label="Bác sĩ">
+                    <Input disabled></Input>
+                  </Form.Item>
+                  <Form.Item name="numberOfTeeth" label="Số lượng răng">
+                    <Input disabled></Input>
+                  </Form.Item>
+                  <Form.Item name="deadlineDate" label="Ngày hết hạn">
+                    <Input disabled></Input>
+                  </Form.Item>
+                </Form>
+                <p>
+                  Trân trọng cảm ơn Quý khách đã tin dùng và lựa chọn sản phẩm
+                  Răng sứ cao cấp Orisdent.
+                </p>
+              </div>
             </div>
-          </div>
-        </section>
-        {/* )} */}
+          </section>
+        )}
         <About1 />
       </Layout>
     </Spin>

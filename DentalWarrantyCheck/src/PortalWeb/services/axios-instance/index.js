@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = "https://localhost:7213/api";
+const apiUrl = "https://www.laviedental.vn:5001/api";
 const source = axios.CancelToken.source();
 const instance = axios.create({
   timeout: 600000,

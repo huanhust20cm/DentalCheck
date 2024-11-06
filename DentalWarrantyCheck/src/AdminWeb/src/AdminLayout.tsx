@@ -10,9 +10,9 @@ const Layout = () => {
 
   return (
     <>
-      {/* <AdminLayout breadcrumbItems={items}>
-      </AdminLayout> */}
+      <AdminLayout breadcrumbItems={items}>
         <Outlet></Outlet>
+      </AdminLayout>
       {isLoading && <LazyLoading />}
     </>
   );

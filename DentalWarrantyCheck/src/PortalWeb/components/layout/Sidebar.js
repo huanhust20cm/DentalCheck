@@ -41,7 +41,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                 </div>
                 <div className="content-box">
                   <p>Tra cứu bảo hành nha khoa Lavie</p>
-                  <Link href="/" className="theme-btn btn-one">
+                  <Link href="/tra-cuu-bao-hanh" className="theme-btn btn-one">
                     <span>Tra cứu bảo hành</span>
                   </Link>
                 </div>

@@ -21,7 +21,7 @@ const onFinish: FormProps<FieldType>['onFinish'] = async (values) => {
       if (response.data) {
         cookie.setCookie('userid', JSON.stringify(response.data.id), 1);
         cookie.setCookie('user', JSON.stringify(response.data), 1);
-        location.href = '/admin';
+        location.href = '/';
       }
     }
   }
@@ -33,7 +33,7 @@ const Login: React.FC = () => {
   useEffect(() => {
     const user = cookie.getCookie('user');
     if (user) {
-      location.href = '/admin';
+      location.href = '/';
     }
   }, []);
 
