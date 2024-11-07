@@ -13,20 +13,29 @@ export default function Team() {
             <div className="content_block_one">
               <div className="content-box ml_30">
                 <div className="sec-title mb_15">
-                  <figure className="image">
+                  <figure className="image mb_10">
                     <img src="assets/images/resource/quyenloi-1.png" alt="" />
                   </figure>
 
-                  <figure className="image">
+                  <figure className="image mobile-none ">
                     <img src="assets/images/resource/about-4.png" alt="" />
                   </figure>
-
+                  <div className="image_block_one mobile-block">
+                    <div className="image-box">
+                      <figure className="image">
+                        <img
+                          src="assets/images/resource/quyenloi-3.png"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                  </div>
                   <div
                     className="service-block-one wow fadeInUp animated"
                     data-wow-delay="00ms"
                     data-wow-duration="1500ms"
                   >
-                    <p>
+                    <p className="mt_10">
                       Orisdent là dòng răng sứ mới và cao cấp nhất hiện nay của
                       Orodent năm 2024. Là nhà kết hợp sáng tạo, Lavie gửi tới
                       khách hàng những ưu đãi vượt trội và khác biệt duy nhất:
@@ -98,7 +107,7 @@ export default function Team() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+          <div className="col-lg-6 col-md-12 col-sm-12 mobile-none image-column">
             <div className="image_block_one">
               <div className="image-box">
                 <figure className="image">

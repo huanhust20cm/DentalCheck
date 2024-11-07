@@ -503,7 +503,7 @@
   }
 
   .about-section {
-    padding: 70px 0px;
+    padding: 30px 0px;
   }
 
   .content_block_one .content-box .lower-box {
@@ -556,12 +556,12 @@
   }
 
   .orisdent {
-    bottom: 0;
+    top: 0;
     left: -50%;
-    transform: translate(-40%, -25%);
+    transform: translate(-40%, 85%);
   }
 
-  .orisdent img{
+  .orisdent img {
     max-width: 250% !important;
   }
 }
