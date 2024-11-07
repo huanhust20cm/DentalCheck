@@ -99,7 +99,7 @@
   position: relative;
   display: block;
   margin-top: -6px;
-  z-index: 1;
+  z-index: 11;
 }
 
 .content_block_one .content-box .list-style-one li {
@@ -557,8 +557,12 @@
 
   .orisdent {
     bottom: 0;
-    left: 0;
-    transform: translate(-90%, -23%);
+    left: -50%;
+    transform: translate(-40%, -25%);
+  }
+
+  .orisdent img{
+    max-width: 250% !important;
   }
 }
 
