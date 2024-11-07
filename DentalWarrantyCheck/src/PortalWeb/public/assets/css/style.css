@@ -2654,6 +2654,34 @@ button.ltr {
   .sec-pad-2 {
     padding: 70px 0px;
   }
+
+  .theme-btn span {
+    padding: 20px;
+  }
+
+  p,
+  .list-style-one li {
+    font-size: 14px;
+  }
+
+  .main-footer .widget-section {
+    padding-bottom: 10px;
+    padding-top: 30px !important;
+  }
+
+  .footer-mobile {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .main-footer .logo-widget .footer-logo,
+  .footer-mobile-text {
+    width: 50%;
+  }
+  .main-footer .logo-widget p {
+    margin-bottom: 0px;
+  }
 }
 
 @media only screen and (max-width: 599px) {

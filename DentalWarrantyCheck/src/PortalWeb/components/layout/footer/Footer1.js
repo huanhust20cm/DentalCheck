@@ -23,15 +23,26 @@ export default function Footer1() {
           <div className="auto-container">
             <div className="row clearfix">
               <div className="col-lg-4 col-md-6 col-sm-12 footer-column">
-                <div className="footer-widget logo-widget">
+                <div className="footer-widget footer-mobile logo-widget">
                   <figure className="footer-logo">
                     <Link href="/">
                       <img src="assets/images/footer-logo.png" alt="" />
                     </Link>
                   </figure>
+                  <div className="mobile-block col-sm-6 footer-mobile-text footer-column">
+                    <div className="footer-widget links-widget ml_110">
+                      <div className="widget-title">
+                        <h3>LIÊN HỆ</h3>
+                        <p>Bạn cần hỗ trợ</p>
+                        <div>
+                          <Link href="tel:0944666363">0944 66 6363</Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12 footer-column">
+              <div className="col-lg-4 mobile-none col-md-6 col-sm-12 footer-column">
                 <div className="footer-widget links-widget ml_110">
                   <div className="widget-title">
                     <h3>LIÊN HỆ</h3>

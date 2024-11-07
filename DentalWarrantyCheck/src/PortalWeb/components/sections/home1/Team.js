@@ -20,51 +20,78 @@ export default function Team() {
                   <figure className="image">
                     <img src="assets/images/resource/about-4.png" alt="" />
                   </figure>
-                  <p>
-                    Orisdent là dòng răng sứ mới và cao cấp nhất hiện nay của
-                    Orodent năm 2024. Là nhà kết hợp sáng tạo, Lavie gửi tới
-                    khách hàng những ưu đãi vượt trội và khác biệt duy nhất:
-                  </p>
+
+                  <div
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <p>
+                      Orisdent là dòng răng sứ mới và cao cấp nhất hiện nay của
+                      Orodent năm 2024. Là nhà kết hợp sáng tạo, Lavie gửi tới
+                      khách hàng những ưu đãi vượt trội và khác biệt duy nhất:
+                    </p>
+                  </div>
                 </div>
                 <div className="text-box mb_40">
                   <ul className="list-style-one clearfix">
                     <li>
-                      <img
-                        className="icon-gif"
-                        src="assets/images/resource/quyenloi-2.png"
-                        alt=""
-                      />
-                      <span>
-                        DUY NHẤT: Tặng 1 năm - Gói Bảo Hiểm Orisdent Smile Care.{" "}
-                      </span>
-                      Khi khách hàng làm 16 răng sứ Orisdent bất kì sẽ được tặng
-                      gói bảo hiểm 1 năm. Bảo hiểm chống rủi ro gãy vỡ dành cho
-                      răng sứ đã làm của hãng bảo hiểm VBI của Vietinbank, bảo
-                      hiểm 10 triệu VNĐ / ca răng.
+                      <div
+                        className="service-block-one wow fadeInUp animated"
+                        data-wow-delay="300ms"
+                        data-wow-duration="1500ms"
+                      >
+                        <img
+                          className="icon-gif"
+                          src="assets/images/resource/quyenloi-2.png"
+                          alt=""
+                        />
+                        <span>
+                          DUY NHẤT: Tặng 1 năm - Gói Bảo Hiểm Orisdent Smile
+                          Care.{" "}
+                        </span>
+                        Khi khách hàng làm 16 răng sứ Orisdent bất kì sẽ được
+                        tặng gói bảo hiểm 1 năm. Bảo hiểm chống rủi ro gãy vỡ
+                        dành cho răng sứ đã làm của hãng bảo hiểm VBI của
+                        Vietinbank, bảo hiểm 10 triệu VNĐ / ca răng.
+                      </div>
                     </li>
                     <li>
-                      <img
-                        className="icon-gif"
-                        src="assets/images/resource/quyenloi-2.png"
-                        alt=""
-                      />
-                      <span>
-                        DUY NHẤT: Tặng ngay Voucher tiền mặt 10.000.000 VNĐ{" "}
-                      </span>
-                      cho khách hàng khi mua Vàng / Trang sức tại toàn bộ hệ
-                      thống của Bảo Tín Minh Châu. Bên cạnh đó, khách hàng sẽ
-                      được áp dụng thêm các mức Ưu đãi đặc biệt, tương đương
-                      hạng thẻ Bạch Kim tại hệ thống Vàng Bảo Tín Minh Châu.
+                      <div
+                        className="service-block-one wow fadeInUp animated"
+                        data-wow-delay="600ms"
+                        data-wow-duration="1500ms"
+                      >
+                        <img
+                          className="icon-gif"
+                          src="assets/images/resource/quyenloi-2.png"
+                          alt=""
+                        />
+                        <span>
+                          DUY NHẤT: Tặng ngay Voucher tiền mặt 10.000.000 VNĐ{" "}
+                        </span>
+                        cho khách hàng khi mua Vàng / Trang sức tại toàn bộ hệ
+                        thống của Bảo Tín Minh Châu. Bên cạnh đó, khách hàng sẽ
+                        được áp dụng thêm các mức Ưu đãi đặc biệt, tương đương
+                        hạng thẻ Bạch Kim tại hệ thống Vàng Bảo Tín Minh Châu.
+                      </div>
                     </li>
                     <li>
-                      <img
-                        className="icon-gif"
-                        src="assets/images/resource/quyenloi-2.png"
-                        alt=""
-                      />
-                      <span>DUY NHẤT: Tặng 1 suất du lịch 3n2đ </span>
-                      tại khu nghỉ dưỡng PullMan Phú Quốc Beach Resort, khi làm
-                      răng sứ Orisdent không yêu cầu số lượng răng tối thiểu.
+                      <div
+                        className="service-block-one wow fadeInUp animated"
+                        data-wow-delay="900ms"
+                        data-wow-duration="1500ms"
+                      >
+                        <img
+                          className="icon-gif"
+                          src="assets/images/resource/quyenloi-2.png"
+                          alt=""
+                        />
+                        <span>DUY NHẤT: Tặng 1 suất du lịch 3n2đ </span>
+                        tại khu nghỉ dưỡng PullMan Phú Quốc Beach Resort, khi
+                        làm răng sứ Orisdent không yêu cầu số lượng răng tối
+                        thiểu.
+                      </div>
                     </li>
                   </ul>
                 </div>

@@ -1,4 +1,3 @@
-
 export default function about() {
   return (
     <section className="about-section pt_120 pb_120 bg-color-1">
@@ -34,24 +33,38 @@ export default function about() {
                   </figure>
                 </div>
                 <div className="text-box mb_40">
-                  <p>
-                    Người Việt - Hàng Việt - Chất lượng Việt. Với mong muốn kiến
-                    tạo mão sứ dành riêng cho khách hàng Việt Nam, phù hợp với
-                    thể trạng, thói quen sinh hoạt và thẩm mỹ. Nha khoa Lavie
-                    kết hợp với Orodent kiến tạo sản phẩm mão sứ Orisdent mang
-                    trên mình sứ mệnh Việt, đón đầu xu hướng toàn cầu.
-                  </p>
-                  <p>
-                    Orisdent là dòng răng sứ mới nhất của hãng Orodent Germany,
-                    được nghiên cứu và phát triển nâng cấp từ dòng Orodent
-                    Bleach truyền thống. Mạ bên ngoài một lớp tinh thể vàng, đây
-                    là biểu tượng cho Mặt Trời sáng rọi và mang đến sự hạnh phúc
-                    và ấm áp. Màu xanh bao bọc bên ngoài mão sứ thể hiện sự bình
-                    ổn, ôn hòa trong cuộc sống. Trong phong thủy, lớp mạ vàng
-                    còn được xem là màu mang đến sự may mắn và thăng tiến trong
-                    công danh sự nghiệp cho người sở hữu, còn màu xanh thể hiện
-                    gia đình thuận hòa, êm ấm, hạnh phúc.
-                  </p>
+                  <div
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="00ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <p>
+                      Người Việt - Hàng Việt - Chất lượng Việt. Với mong muốn
+                      kiến tạo mão sứ dành riêng cho khách hàng Việt Nam, phù
+                      hợp với thể trạng, thói quen sinh hoạt và thẩm mỹ. Nha
+                      khoa Lavie kết hợp với Orodent kiến tạo sản phẩm mão sứ
+                      Orisdent mang trên mình sứ mệnh Việt, đón đầu xu hướng
+                      toàn cầu.
+                    </p>
+                  </div>
+                  <div
+                    className="service-block-one wow fadeInUp animated"
+                    data-wow-delay="300ms"
+                    data-wow-duration="1500ms"
+                  >
+                    <p>
+                      Orisdent là dòng răng sứ mới nhất của hãng Orodent
+                      Germany, được nghiên cứu và phát triển nâng cấp từ dòng
+                      Orodent Bleach truyền thống. Mạ bên ngoài một lớp tinh thể
+                      vàng, đây là biểu tượng cho Mặt Trời sáng rọi và mang đến
+                      sự hạnh phúc và ấm áp. Màu xanh bao bọc bên ngoài mão sứ
+                      thể hiện sự bình ổn, ôn hòa trong cuộc sống. Trong phong
+                      thủy, lớp mạ vàng còn được xem là màu mang đến sự may mắn
+                      và thăng tiến trong công danh sự nghiệp cho người sở hữu,
+                      còn màu xanh thể hiện gia đình thuận hòa, êm ấm, hạnh
+                      phúc.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
