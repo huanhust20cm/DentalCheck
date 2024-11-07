@@ -2547,6 +2547,12 @@ button.ltr {
   padding: 16px 0px;
 }
 
+.img-service {
+  width: 80% !important;
+  position: relative;
+  z-index: 10;
+}
+
 /* Responsive Css */
 
 @media only screen and (max-width: 1749px) {
@@ -2681,6 +2687,13 @@ button.ltr {
   }
   .main-footer .logo-widget p {
     margin-bottom: 0px;
+  }
+
+  .img-mobile {
+    max-width: 150% !important;
+  }
+  .img-service {
+    width: 100% !important;
   }
 }
 

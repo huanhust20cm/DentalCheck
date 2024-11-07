@@ -10,12 +10,16 @@ export default function chooseus() {
         <div className="row clearfix">
           <div className="service-block">
             <div
-              className="service-block-one wow fadeInUp animated"
+              className="service-block-one wow fadeInUp "
               data-wow-delay="00ms"
               data-wow-duration="1500ms"
             >
               <figure className="image flexbox_3">
-                <img src="assets/images/service/service-2.png" alt="" />
+                <img
+                  className="img-mobile"
+                  src="assets/images/service/service-2.jpg"
+                  alt=""
+                />
               </figure>
             </div>
           </div>

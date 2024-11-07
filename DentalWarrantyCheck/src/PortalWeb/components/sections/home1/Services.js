@@ -130,10 +130,19 @@ export default function service() {
             <div className="image_block_one">
               <div className="image-box">
                 <figure className="image">
-                  <img src="assets/images/resource/about-1.png" alt="" />
+                  <img
+                    className="img-service"
+                    src="assets/images/resource/service-10.png"
+                    alt=""
+                  />
                 </figure>
               </div>
             </div>
+          </div>
+          <div className="orisdent">
+            <figure>
+              <img src="assets/images/resource/orisdent1.png" alt="" />
+            </figure>
           </div>
         </div>
       </div>
