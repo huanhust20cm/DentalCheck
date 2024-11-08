@@ -22,7 +22,7 @@ export default function Team() {
                   </figure>
 
                   <div
-                    className="service-block-one wow fadeInUp animated"
+                    className="service-block-one wow fadeInUp "
                     data-wow-delay="00ms"
                     data-wow-duration="1500ms"
                   >
@@ -37,7 +37,7 @@ export default function Team() {
                   <ul className="list-style-one clearfix">
                     <li>
                       <div
-                        className="service-block-one wow fadeInUp animated"
+                        className="service-block-one wow fadeInUp "
                         data-wow-delay="300ms"
                         data-wow-duration="1500ms"
                       >
@@ -58,7 +58,7 @@ export default function Team() {
                     </li>
                     <li>
                       <div
-                        className="service-block-one wow fadeInUp animated"
+                        className="service-block-one wow fadeInUp "
                         data-wow-delay="600ms"
                         data-wow-duration="1500ms"
                       >
@@ -78,7 +78,7 @@ export default function Team() {
                     </li>
                     <li>
                       <div
-                        className="service-block-one wow fadeInUp animated"
+                        className="service-block-one wow fadeInUp "
                         data-wow-delay="900ms"
                         data-wow-duration="1500ms"
                       >

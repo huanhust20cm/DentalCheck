@@ -24,7 +24,7 @@ export default function service() {
                   <ul className="list-style-one clearfix">
                     <li className="text-uppercase">
                       <div
-                        className="service-block-one wow fadeInUp animated"
+                        className="service-block-one wow fadeInUp "
                         data-wow-delay="00ms"
                         data-wow-duration="1500ms"
                       >
@@ -38,7 +38,7 @@ export default function service() {
                     </li>
                     <li className="text-uppercase">
                       <div
-                        className="service-block-one wow fadeInUp animated"
+                        className="service-block-one wow fadeInUp "
                         data-wow-delay="00ms"
                         data-wow-duration="1500ms"
                       >
@@ -52,7 +52,7 @@ export default function service() {
                     </li>
                     <li className="text-uppercase">
                       <div
-                        className="service-block-one wow fadeInUp animated"
+                        className="service-block-one wow fadeInUp "
                         data-wow-delay="300ms"
                         data-wow-duration="1500ms"
                       >
@@ -67,7 +67,7 @@ export default function service() {
                     </li>
                     <li className="text-uppercase">
                       <div
-                        className="service-block-one wow fadeInUp animated"
+                        className="service-block-one wow fadeInUp "
                         data-wow-delay="600ms"
                         data-wow-duration="1500ms"
                       >
@@ -81,7 +81,7 @@ export default function service() {
                     </li>
                     <li className="text-uppercase">
                       <div
-                        className="service-block-one wow fadeInUp animated"
+                        className="service-block-one wow fadeInUp "
                         data-wow-delay="900ms"
                         data-wow-duration="1500ms"
                       >
@@ -95,7 +95,7 @@ export default function service() {
                     </li>
                     <li className="text-uppercase">
                       <div
-                        className="service-block-one wow fadeInUp animated"
+                        className="service-block-one wow fadeInUp "
                         data-wow-delay="1200ms"
                         data-wow-duration="1500ms"
                       >
@@ -109,7 +109,7 @@ export default function service() {
                     </li>
                     <li className="text-uppercase">
                       <div
-                        className="service-block-one wow fadeInUp animated"
+                        className="service-block-one wow fadeInUp "
                         data-wow-delay="1500ms"
                         data-wow-duration="1500ms"
                       >
