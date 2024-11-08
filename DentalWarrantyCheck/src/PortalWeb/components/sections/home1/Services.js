@@ -14,11 +14,22 @@ export default function service() {
                     <img src="assets/images/resource/about-2.png" alt="" />
                   </figure>
                   <figure className="image mt_10">
-                    <img src="assets/images/resource/about-3.png" alt="" />
+                    <img src="assets/images/resource/nucuoi.png" alt="" />
                   </figure>
-                  <figure className="image">
+                  <figure className="image mobile-none">
                     <img src="assets/images/resource/about-4.png" alt="" />
                   </figure>
+                </div>
+                <div className="image_block_one mobile-block">
+                  <div className="image-box">
+                    <figure className="image">
+                      <img
+                        className="img-service"
+                        src="assets/images/resource/service-10.png"
+                        alt=""
+                      />
+                    </figure>
+                  </div>
                 </div>
                 <div className="text-box mb_40">
                   <ul className="list-style-one clearfix">
@@ -126,7 +137,7 @@ export default function service() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+          <div className="col-lg-6 col-md-12 col-sm-12 mobile-none image-column">
             <div className="image_block_one">
               <div className="image-box">
                 <figure className="image">

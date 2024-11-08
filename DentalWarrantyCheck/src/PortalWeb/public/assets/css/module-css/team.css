@@ -7,8 +7,8 @@
 .bg-quyenloi {
   position: absolute;
   bottom: 0;
-  z-index: 11;
-  transform: translate(15%, 20%);
+  z-index: 10;
+  transform: translate(0%, 20%);
 }
 
 .team-block-one .inner-box {
@@ -300,7 +300,9 @@
     padding-top: 34px !important;
   }
   .bg-quyenloi {
-    transform: translate(-55%, 5%);
+    top: 0;
+    transform: translate(-50%, 25%);
+    z-index: 11;
   }
 
   .bg-quyenloi img {

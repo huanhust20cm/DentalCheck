@@ -9,7 +9,7 @@ export default function about() {
         className="auto-container"
       >
         <div className="row clearfix">
-          <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+          <div className="col-lg-6 mobile-none col-md-12 col-sm-12 image-column">
             <div className="image_block_one">
               <div className="image-box">
                 <figure className="image">
@@ -28,11 +28,23 @@ export default function about() {
                   <figure className="image pt_10 ">
                     <img src="assets/images/resource/about-3.png" alt="" />
                   </figure>
-                  <figure className="image">
+                  <figure className="image mobile-none">
                     <img src="assets/images/resource/about-4.png" alt="" />
                   </figure>
                 </div>
                 <div className="text-box mb_40">
+                  <div className="col-lg-6 mobile-block col-md-12 col-sm-12 image-column">
+                    <div className="image_block_one">
+                      <div className="image-box">
+                        <figure className="image">
+                          <img
+                            src="assets/images/resource/about-1.png"
+                            alt=""
+                          />
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
                   <div
                     className="service-block-one wow fadeInUp animated"
                     data-wow-delay="00ms"

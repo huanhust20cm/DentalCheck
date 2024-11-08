@@ -4,7 +4,16 @@ export default function chooseus() {
       <div className="auto-container">
         <div className="sec-title mb_50 centred">
           <figure className="image">
-            <img src="assets/images/service/service-1.png" alt="" />
+            <img
+              src="assets/images/service/service-1.png"
+              className="mobile-none"
+              alt=""
+            />
+            <img
+              src="assets/images/service/uudiem4.png"
+              className="mobile-block"
+              alt=""
+            />
           </figure>
         </div>
         <div className="row clearfix">
