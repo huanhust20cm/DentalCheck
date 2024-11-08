@@ -47,7 +47,7 @@ export default function Team() {
                     <li>
                       <div
                         className="service-block-one wow fadeInUp "
-                        data-wow-delay="300ms"
+                        data-wow-delay="100ms"
                         data-wow-duration="1500ms"
                       >
                         <img
@@ -68,7 +68,7 @@ export default function Team() {
                     <li>
                       <div
                         className="service-block-one wow fadeInUp "
-                        data-wow-delay="600ms"
+                        data-wow-delay="200ms"
                         data-wow-duration="1500ms"
                       >
                         <img
@@ -88,7 +88,7 @@ export default function Team() {
                     <li>
                       <div
                         className="service-block-one wow fadeInUp "
-                        data-wow-delay="900ms"
+                        data-wow-delay="300ms"
                         data-wow-duration="1500ms"
                       >
                         <img

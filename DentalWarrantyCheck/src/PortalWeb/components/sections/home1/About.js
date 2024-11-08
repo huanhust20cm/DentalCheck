@@ -61,7 +61,7 @@ export default function about() {
                   </div>
                   <div
                     className="service-block-one wow fadeInUp animated"
-                    data-wow-delay="300ms"
+                    data-wow-delay="200ms"
                     data-wow-duration="1500ms"
                   >
                     <p>

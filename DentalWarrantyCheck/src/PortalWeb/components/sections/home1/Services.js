@@ -64,7 +64,7 @@ export default function service() {
                     <li className="text-uppercase">
                       <div
                         className="service-block-one wow fadeInUp "
-                        data-wow-delay="300ms"
+                        data-wow-delay="100ms"
                         data-wow-duration="1500ms"
                       >
                         <img
@@ -79,7 +79,7 @@ export default function service() {
                     <li className="text-uppercase">
                       <div
                         className="service-block-one wow fadeInUp "
-                        data-wow-delay="600ms"
+                        data-wow-delay="200ms"
                         data-wow-duration="1500ms"
                       >
                         <img
@@ -93,7 +93,7 @@ export default function service() {
                     <li className="text-uppercase">
                       <div
                         className="service-block-one wow fadeInUp "
-                        data-wow-delay="900ms"
+                        data-wow-delay="400ms"
                         data-wow-duration="1500ms"
                       >
                         <img
@@ -107,7 +107,7 @@ export default function service() {
                     <li className="text-uppercase">
                       <div
                         className="service-block-one wow fadeInUp "
-                        data-wow-delay="1200ms"
+                        data-wow-delay="600ms"
                         data-wow-duration="1500ms"
                       >
                         <img
@@ -121,7 +121,7 @@ export default function service() {
                     <li className="text-uppercase">
                       <div
                         className="service-block-one wow fadeInUp "
-                        data-wow-delay="1500ms"
+                        data-wow-delay="800ms"
                         data-wow-duration="1500ms"
                       >
                         <img
